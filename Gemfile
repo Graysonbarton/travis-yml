@@ -7,7 +7,7 @@ gem 'thwait'
 gem 'travis-conditions', git: 'https://github.com/travis-ci/travis-conditions'
 
 group :web do
-  gem 'puma', '~> 6.3.0'
+  gem 'puma', '~> 6.4.2'
   gem 'sinatra'
   gem 'sinatra-contrib'
   gem 'rack-cors'
