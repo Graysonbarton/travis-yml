@@ -8,8 +8,8 @@ gem 'travis-conditions', git: 'https://github.com/travis-ci/travis-conditions'
 
 group :web do
   gem 'puma', '~> 6.3.0'
-  gem 'sinatra'
-  gem 'sinatra-contrib'
+  gem 'sinatra', '>= 4.1.0'
+  gem 'sinatra-contrib', '>= 4.1.0'
   gem 'rack-cors'
   gem 'rack-ssl-enforcer', '~> 0.2.9'
   gem 'sentry-raven', '~> 3.1.2'
