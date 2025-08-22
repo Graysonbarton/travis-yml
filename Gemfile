@@ -23,7 +23,7 @@ group :test do
   gem 'pry'
   gem 'rack-test'
   gem 'rake'
-  gem 'rexml'
+  gem 'rexml', '>= 3.3.9'
   gem 'rspec'
   gem 'webmock'
 end
