@@ -26,7 +26,7 @@ group :test do
   gem 'rake'
   gem 'rexml', '>= 3.3.9'
   gem 'rspec'
-  gem 'webmock'
+  gem 'webmock', '>= 3.23.1'
 end
 
 gemspec
